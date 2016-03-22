@@ -34,7 +34,7 @@ $width100: 100%;
 
 html {
 	@include smallerDevice {
-		font-size: .8em;
+		font-size: 1em;
 	}
 	@include largerDevice {
 		font-size: 1.4em;
@@ -127,7 +127,7 @@ nav {
 }
 
 .dummy {
-    margin-top: 100%;
+    margin-top: 80%;
 }
 
 .thumbnailBlockWidth {
@@ -167,4 +167,6 @@ nav {
 .containerSpacing {
 	border: 1px solid #ddd;
 	padding-right: 28px; 
+	/* margin-top: 15px; 
+	margin-bottom: 15px; */
 }
