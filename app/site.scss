@@ -5,6 +5,7 @@ $headerLeftMargin: 15px;
 $shadowColor: #68686b;
 $menuItemColor: #E4EEE4;
 $black: #000;
+$width100: 100%;
 
 
 @mixin boxShadow($shadowColor) {
@@ -40,11 +41,28 @@ html {
 	}
 }
 
+.logo {
+	width: $width100;
+}
+
 .headerContainer {
 	display: table;
 	margin-left: auto;
     margin-right: auto;
     padding: 0px;
+}
+
+.footerContainer {
+	background-color: #008da9;
+	text-align: center;
+	color: #fff;
+}
+
+.breadCrumb {
+	background-color: #66a101;
+	text-align: left;
+	color: #fff;
+	padding-left: 5px;
 }
 
 nav {
@@ -149,6 +167,4 @@ nav {
 .containerSpacing {
 	border: 1px solid #ddd;
 	padding-right: 28px; 
-	/* margin-top: 15px; 
-	margin-bottom: 15px; */
 }
