@@ -1,0 +1,19 @@
+{
+  "name": "Family and Community Services",
+  "version": "1.0.0",
+  "authors": [
+    "Sreejith Jayadevan - sreejithjayadevan@gmail.com"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.3.14",
+    "bootstrap-sass": "~3.3.3"
+  }
+}

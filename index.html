@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="peopleSearchApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Family & Community Services</title>
+    <link rel="stylesheet" type="text/css" href="app/site.css">
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+</head>
+<body>
+<div class="container headerContainer">
+	<header>
+		<img ng-src="img/logo.gif" style="width: 100%;"/>
+	</header>
+	<div style="background-color: #66a101; text-align: left; color: #fff;">
+		Home
+	</div>
+	<div id="content-body-container">
+		<nav>
+			<ul>
+				<li><a href="">Basket empty</a></li>
+				<li><a href="">Housing NSW website</a></li>
+				<li><a href="">Provide your feedback</a></li>
+			</ul>
+		</nav>
+		<div id="repairBlock" class="container containerSpacing repairBlock" ng-controller="PeopleSearchCtrl">
+			<div class="row">
+				<div class="form-group searchHeaderMargin textColor">
+					<h4>Repair Area Search</h4>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group searchHeaderMargin">
+					<input type="text" class="form-control" id="query" ng-model="query"></input>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-6" ng-repeat="repairArea in repairAreas | filter:query | orderBy: orderList">
+			    <div class="dummy"></div>
+			        <a class="thumbnail purple" title="{{repairArea.Title}}">
+			        	<div>
+			        		<img class="thumbnailImage" ng-src="{{repairArea.picture}}" />
+			        	</div>
+			        	<div>
+			        		{{repairArea.repairArea}}
+			        	</div>
+			        </a>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container headerContainer">
+	<footer>
+		<div style="background-color: #008da9; text-align: center; color: #fff;">
+			&copy; 2016 Family & Community Service NSW. All rights reserved.
+		</div>
+	</footer>
+</div>
+
+</body>
+</html>
