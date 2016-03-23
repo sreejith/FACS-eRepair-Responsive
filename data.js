@@ -103,13 +103,4 @@ peopleSearchApp.controller('PeopleSearchCtrl', function($scope){
     $scope.repairAreas = repairAreas;
     $scope.orderList = "repairArea";
     
-})
-
-/*.directive('userTiles', function($compile) {
-    return {
-        restrict: 'E';
-        link: function(scope,element,attrs){
-            var template = '';
-        }
-    }
-});*/
+});
