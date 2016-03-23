@@ -2,97 +2,97 @@ var repairAreas = [
     {
         'id': '1',
         'repairArea': 'Bath and Showers',
-        'picture': 'img/bathroom.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Bath and Showers'
     },
     {
         'id': '2',
         'repairArea': 'Cupboards, Drawers and Wardrobes',
-        'picture': 'img/CupC5.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Cupboards, Drawers and Wardrobes'
     },
     {
         'id': '3',
         'repairArea': 'Doors',
-        'picture': 'img/DoorC39.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Doors'
     },
     {
         'id': '4',
         'repairArea': 'Electrics',
-        'picture': 'img/socket_australia.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Electrics'
     },
     {
         'id': '5',
         'repairArea': 'Gas Services',
-        'picture': 'img/HeatC76.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Gas Services'
     },
     {
         'id': '6',
         'repairArea': 'Heating and Cooling',
-        'picture': 'img/HeatC4.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Heating and Cooling'
     },
     {
         'id': '7',
         'repairArea': 'Hot Water',
-        'picture': 'img/HeatC71.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Hot Water'
     },
     {
         'id': '8',
         'repairArea': 'Kitchen Sinks and Bathroom Basins',
-        'picture': 'img/SinkC4.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Kitchen Sinks and Bathroom Basins'
     },
     {
         'id': '9',
         'repairArea': 'Laundry Items and Clothes Lines',
-        'picture': 'img/ExterC7.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Laundry Items and Clothes Lines'
     },
     {
         'id': '10',
         'repairArea': 'Outside of Home',
-        'picture': 'img/Outside-(front)-house.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Outside of Home'
     },
     {
         'id': '11',
         'repairArea': 'Pests',
-        'picture': 'img/rat.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Pests'
     },
     {
         'id': '12',
         'repairArea': 'Stoves and Rangehoods',
-        'picture': 'img/ElecC94.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Stoves and Rangehoods'
     },
     {
         'id': '13',
         'repairArea': 'Toilets',
-        'picture': 'img/WCC8.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Toilets'
     },
     {
         'id': '14',
         'repairArea': 'Walls, Floors, Ceilings and Stairs',
-        'picture': 'img/WallC7.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Walls, Floors, Ceilings and Stairs'
     },
     {
         'id': '15',
         'repairArea': 'Water Meter',
-        'picture': 'img/(Wat-C39)-Water-meter-(AUS).gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Water Meter'
     },
     {
         'id': '16',
         'repairArea': 'Windows',
-        'picture': 'img/WallC26.gif',
+        'picture': 'img/australia.jpg',
         'Title': 'Windows'
     },
 ];
